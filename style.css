@@ -8,6 +8,12 @@
     margin-right: 85%;
 }
 
+input{
+    border-top: white;
+    border-left: white;
+    border-right: white;
+}
+
 hr{
     border-top: 3px solid red;
 }
@@ -20,6 +26,7 @@ hr{
 
 .title{
  margin-left: 20% ;
+ 
     
 }
 
@@ -72,7 +79,7 @@ hr{
     margin-left: 19.5%;
 }
 
-.add, .post-code{
+.add{
    margin-left:14% ; 
 }
 
@@ -80,8 +87,12 @@ hr{
     margin-left: 19%;
 }
 
+.post-code{
+    margin-left: 15.5%;
+}
+
 .butt{
-    padding: 15px;
+    padding: 10px 32px;
    background-color: red;
     margin-left: 70%;
     color: whitesmoke;

@@ -45,13 +45,13 @@
             <div>
                   gender:
                   <span class="gender">
-                        <input type="radio">
                         <label for="radio-choice-1">Male</label>
+                        <input type="radio" name="gender" id="male">
+                        
+                        
+                              <label for="radio-choice-2">Female</label>
+                              <input type="radio" name="gender" id="female">
 
-
-                        <input type="radio">
-
-                        <label for="radio-choice-2">Female</label>
                   </span>
             </div>
 
@@ -64,7 +64,7 @@
                   <span class="lang-opt">
                         <option value=""> choose a language </option>
                         <option value="English"> English</option>
-                        <option value="France">France</option>
+                        <option value="Somali">Somali</option>
                   </span>
             </select>
       </div>
@@ -94,13 +94,13 @@
             </div>
             <br>
             <div>
-                  <label>mail1</label>
-                  <span class="mail"> <input type="mail"></span>
+                  <label for="email">mail1</label>
+                  <span class="mail"> <input type="email" id="email" required></span>
             </div>
             <br>
             <div>
-                  <labe>mail2</label>
-                        <span class="mail2"><input type="mail"></span>
+                  <label for="email" >mail2</label>
+                        <span class="mail2"><input type="email" id="email" required></span>
             </div>
       </div>
       <hr>
@@ -141,11 +141,13 @@
                   <span class="post-code"><input type="mail"></span>
                   <span><input type="number"></span>
             </div>
+
+            <input type="submit" class="butt">
       </div>
       <br>
       <br>
 
-      <input type="submit" class="butt">
+
 
 
 </body>
